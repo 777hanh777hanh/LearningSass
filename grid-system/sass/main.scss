@@ -1,0 +1,40 @@
+@use './reset';
+// @use './grid' with (
+//     $grid-breakpoints: (
+//         xs: 0,
+//         sm: 576px,
+//         md: 768px,
+//         lg: 992px,
+//         xl: 1200px,
+//         xxl: 1400px,
+//     ),
+//     $container-max-widths: (
+//         sm: 540px,
+//         md: 720px,
+//         lg: 960px,
+//         xl: 1170px,
+//         xxl: 1320px,
+//     ),
+//     $grid-columns: 12,
+//     $grid-row-cols-number: 6,
+//     $grid-gutter-width: 24px,
+//     $gutters: (
+//         0: 0,
+//         1: 0.25,
+//         2: 0.5,
+//         3: 1,
+//         4: 1.25,
+//         5: 1.5,
+//         6: 3,
+//     )
+// );
+@use './grid';
+
+// .item {
+//     background: tomato;
+//     line-height: 1.5;
+// }
+
+// [class*='col'] {
+//     background-color: rgba($color: tomato, $alpha: 0.4);
+// }
